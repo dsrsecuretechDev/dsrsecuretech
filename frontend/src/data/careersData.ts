@@ -13,9 +13,12 @@ export const jobss = [
     name: "AI Engineer",
     category: "AI",
     icon: Brain,
-    description:
-      "Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.",
-    tasks: [
+    description: [
+      "Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation. Design, train, and deploy AI models to power next-gen applications.",
+      `You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications.`,
+      ` You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.`,
+    ],
+    responsibilities: [
       "Develop and fine-tune AI/ML models",
       "Integrate AI features into applications",
       "Research emerging AI technologies",
@@ -40,9 +43,12 @@ export const jobss = [
     name: "Sales Executive",
     category: "Sales",
     icon: Handshake,
-    description:
-      "Drive revenue growth by identifying leads, building relationships, and closing deals. You’ll be the link between our solutions and client success.",
-    tasks: [
+    description: [
+      "Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation. Design, train, and deploy AI models to power next-gen applications.",
+      `You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications.`,
+      ` You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.`,
+    ],
+    responsibilities: [
       "Prospect and qualify leads",
       "Deliver impactful sales presentations",
       "Negotiate and close contracts",
@@ -55,9 +61,12 @@ export const jobss = [
     name: "MERN Stack Developer",
     category: "Development",
     icon: Code2,
-    description:
-      "Build responsive, scalable, and maintainable full-stack applications using the MERN stack. You’ll own features from front-end design to back-end APIs.",
-    tasks: [
+    description: [
+      "Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation. Design, train, and deploy AI models to power next-gen applications.",
+      `You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications.`,
+      ` You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.`,
+    ],
+    responsibilities: [
       "Develop REST APIs with Express",
       "Create responsive React interfaces",
       "Manage MongoDB databases",
@@ -70,9 +79,16 @@ export const jobss = [
     name: "Node.js Developer",
     category: "Development",
     icon: Server,
-    description:
-      "Specialize in building performant and secure server-side applications with Node.js. Collaborate with front-end teams and integrate APIs.",
-    tasks: ["Develop back-end logic", "Integrate APIs", "Optimize performance"],
+    description: [
+      "Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation. Design, train, and deploy AI models to power next-gen applications.",
+      `You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications.`,
+      ` You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.`,
+    ],
+    responsibilities: [
+      "Develop back-end logic",
+      "Integrate APIs",
+      "Optimize performance",
+    ],
     skills: ["Node.js", "JavaScript", "API Design", "Debugging"],
     experience: "2-5 years",
     techStack: ["Node.js", "Express.js", "PostgreSQL", "JWT"],
@@ -81,9 +97,12 @@ export const jobss = [
     name: "Business Analyst",
     category: "IT Ops",
     icon: ClipboardList,
-    description:
-      "Analyze business needs, design workflows, and bridge communication between stakeholders and developers.",
-    tasks: [
+    description: [
+      "Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation. Design, train, and deploy AI models to power next-gen applications.",
+      `You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications.`,
+      ` You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.`,
+    ],
+    responsibilities: [
       "Gather and document requirements",
       "Analyze processes",
       "Recommend improvements",
@@ -96,9 +115,12 @@ export const jobss = [
     name: "Full Stack Developer",
     category: "Development",
     icon: Layers,
-    description:
-      "Own the complete application lifecycle — from designing the UI to building APIs and managing databases.",
-    tasks: [
+    description: [
+      "Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation. Design, train, and deploy AI models to power next-gen applications.",
+      `You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications.`,
+      ` You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.`,
+    ],
+    responsibilities: [
       "Develop user interfaces",
       "Create and manage APIs",
       "Optimize for performance",
@@ -111,9 +133,12 @@ export const jobss = [
     name: "UI/UX Designer",
     category: "Design",
     icon: Palette,
-    description:
-      "Create intuitive, engaging, and visually appealing interfaces that elevate the user experience.",
-    tasks: [
+    description: [
+      "Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation. Design, train, and deploy AI models to power next-gen applications.",
+      `You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications.`,
+      ` You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.`,
+    ],
+    responsibilities: [
       "Create wireframes and prototypes",
       "Design user flows",
       "Test and iterate on designs",

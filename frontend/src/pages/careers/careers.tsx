@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { jobss } from "../../data/careersData";
-import { Search, X } from "lucide-react"; // lucide-react icons
+import { Search, X } from "lucide-react";
+import { Link } from "react-router-dom";
+import { ROUTE_URL } from "../../constant/routes.const";
 
 const categories = [
   "AI",
@@ -15,7 +17,6 @@ const categories = [
 const Careers = () => {
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
-  const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [searchValue, setSearchValue] = useState("");
 
   const removeTag = () => setSelectedTag(null);
@@ -110,24 +111,31 @@ const Careers = () => {
               filteredServices.map((job, index) => {
                 const Icon = job.icon;
                 return (
-                  <div
-                    key={index}
-                    className="text-center px-6 py-6 bg-saas-dark rounded-xl border border-gray-800 transition duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-saas-darkGray"
+                  <Link
+                    to={ROUTE_URL.LEARN_MORE_ABOUT_CAREER.replace(
+                      ":category",
+                      encodeURIComponent(job.name)
+                    )}
                   >
-                    <div className="bg-indigo-100/10 p-3 rounded-full inline-flex items-center justify-center mx-auto mb-4">
-                      <Icon size={28} className="text-saas-orange" />
-                    </div>
-                    <h3 className="text-lg text-saas-orange font-semibold mb-2">
-                      {job.name}
-                    </h3>
-                    <p className="text-md mb-2">{job.description}</p>
-                    <a
-                      href="#"
-                      className="text-indigo-400 text-sm font-medium hover:underline"
+                    <div
+                      key={index}
+                      className="text-center px-6 py-6 bg-saas-dark rounded-xl border border-gray-800 transition duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-saas-darkGray hover:border-saas-orange"
                     >
-                      Learn more.
-                    </a>
-                  </div>
+                      <div className="bg-indigo-100/10 p-3 rounded-full inline-flex items-center justify-center mx-auto mb-4">
+                        <Icon size={28} className="text-saas-orange" />
+                      </div>
+                      <h3 className="text-lg text-saas-orange font-semibold mb-2">
+                        {job.name}
+                      </h3>
+                      <p className="text-md mb-2">{job.description?.[0]}</p>
+                      <a
+                        href="#"
+                        className="text-indigo-400 text-sm font-medium hover:underline"
+                      >
+                        Learn more.
+                      </a>
+                    </div>
+                  </Link>
                 );
               })
             ) : (

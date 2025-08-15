@@ -10,6 +10,7 @@ export const ROUTE_URL = {
   CAREERS: "/careers",
   SERVICE: "/Service",
   LEARN_MORE: "/learn-more/:category",
+  LEARN_MORE_ABOUT_CAREER: "/careers/:category",
   WHO_WE_ARE: "/who-we-are",
   NOT_ALLOWED: "/not-allowed",
   PRIVACY_POLICY: "/privacy-policy",
