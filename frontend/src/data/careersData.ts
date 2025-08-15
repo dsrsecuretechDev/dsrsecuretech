@@ -14,21 +14,21 @@ export const jobss = [
     category: "AI",
     icon: Brain,
     description: [
-      "Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation. Design, train, and deploy AI models to power next-gen applications.",
+      `Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation. Design, train, and deploy AI models to power next-gen applications.`,
       `You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications.`,
       ` You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.`,
     ],
     responsibilities: [
-      "Develop and fine-tune AI/ML models",
-      "Integrate AI features into applications",
-      "Research emerging AI technologies",
+     
+      "Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation. Design, train, and deploy AI models to power next-gen applications.",
+      `You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications.`,
+      ` You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.`,
     ],
     skills: [
-      "Machine Learning",
-      "Deep Learning",
-      "Python",
-      "Data Analysis",
-      "NLP",
+     
+      "Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation. Design, train, and deploy AI models to power next-gen applications.",
+      `You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications.`,
+      ` You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.Design, train, and deploy AI models to power next-gen applications. You’ll work with deep learning, NLP, and data pipelines to solve complex problems and enhance automation.`,
     ],
     experience: "2-5 years",
     techStack: [

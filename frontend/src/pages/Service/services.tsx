@@ -88,7 +88,7 @@ const Services = () => {
                     <h3 className="text-lg text-saas-orange font-semibold mb-2">
                       {feature.category}
                     </h3>
-                    <p className="text-md mb-2">{feature.description}</p>
+                    <p className="text-md mb-2">{feature?.description?.[0]}</p>
                     <span className="text-indigo-400 text-sm font-medium hover:underline">
                       Learn more.
                     </span>
