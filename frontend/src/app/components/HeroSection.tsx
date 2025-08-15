@@ -65,21 +65,21 @@ const HeroSection = () => {
               <p className="text-2xl font-bold text-white">
                 <CountUp end={2.5} duration={2} decimals={1} suffix="K+" />
               </p>
-              <p className="text-sm text-gray-400">Trading Volume</p>
+              <p className="text-sm text-gray-400">Satisfied Users</p>
             </div>
             <div className="hidden sm:block h-12 w-px bg-gray-700"></div>
             <div className="flex flex-col items-center sm:items-start">
               <p className="text-2xl font-bold text-white">
                 <CountUp end={120} duration={2} suffix="+" />
               </p>
-              <p className="text-sm text-gray-400">Active Traders</p>
+              <p className="text-sm text-gray-400">Satisfied Clients</p>
             </div>
             <div className="hidden sm:block h-12 w-px bg-gray-700"></div>
             <div className="flex flex-col items-center sm:items-start">
               <p className="text-2xl font-bold text-white">
                 <CountUp end={50} duration={2} suffix="+" />
               </p>
-              <p className="text-sm text-gray-400">Global Markets</p>
+              <p className="text-sm text-gray-400">Projects</p>
             </div>
           </div>
         </div>
