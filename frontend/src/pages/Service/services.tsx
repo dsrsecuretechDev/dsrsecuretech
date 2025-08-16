@@ -8,20 +8,23 @@ import { services } from "../../data/services";
 import CtaSection from "../../app/components/CtaSection";
 import { ROUTE_URL } from "../../constant/routes.const";
 import { Link } from "react-router-dom";
+import ImageTilt from "../../app/components/ui/ImageTilt";
 
 const Services = () => {
   return (
     <>
-      <div className="relative bg-gradient-to-b from-saas-black to-[#1c160c] overflow-hidden  flex items-center">
+      <div className="relative bg-gradient-to-b from-saas-black to-[#1c160c] overflow-hidden flex items-center justify-center min-h-screen">
         {/* Orange glow effects */}
         <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-saas-orange opacity-10 rounded-full blur-[100px]"></div>
         <div className="absolute bottom-0 left-1/4 w-[300px] h-[300px] bg-orange-700 opacity-15 rounded-full blur-[80px]"></div>
         <div className="absolute top-20 right-1/4 w-[250px] h-[250px] bg-orange-400 opacity-10 rounded-full blur-[70px]"></div>
 
-        <div className="section-container relative z-10 text-center">
-          <div className="flex flex-col items-center justify-center max-w-4xl mx-auto">
-            <div className="animate-fade-in">
-              <span className="inline-block bg-saas-orange/10 text-saas-orange px-4 py-2 rounded-full text-sm font-medium mb-6 border border-saas-orange/20">
+        {/* Content Centered */}
+        <div className="relative w-full px-6">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+            {/* LEFT CONTENT */}
+            <div className="text-center md:text-left animate-fade-in">
+              <span className="inline-block bg-saas-orange/10 text-saas-orange px-4 py-2 rounded-full text-sm font-medium mb-24 border border-saas-orange/20">
                 Securing Your Digital World, Every Byte & Every Block.
               </span>
 
@@ -32,13 +35,11 @@ const Services = () => {
                 </span>
               </h1>
 
-              <p className="text-lg md:text-xl mb-8 text-gray-300 max-w-2xl mx-auto">
-                {/* Streamline your operations, boost productivity, and enhance
-                customer satisfaction with our cutting-edge SaaS platform.
-                Experience seamless integration and unparalleled support. */}
+              <p className="text-lg md:text-xl mb-8 text-gray-300 max-w-xl">
+                {/* Optional description */}
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex flex-col sm:flex-row gap-4 md:justify-start justify-center">
                 <Button className="bg-saas-orange hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200">
                   Get Started Free
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -51,6 +52,11 @@ const Services = () => {
                 </Button>
               </div>
             </div>
+
+            {/* RIGHT IMAGE */}
+            <div className="flex justify-center md:justify-end">
+              <ImageTilt src="/servicess2.png" alt="Logo" maxTilt={10} />
+            </div>
           </div>
         </div>
 
@@ -59,6 +65,7 @@ const Services = () => {
         <div className="absolute top-20 right-10 w-10 h-10 border border-saas-orange/20 rounded-full"></div>
         <div className="absolute top-40 left-20 w-5 h-5 bg-saas-orange/20 rounded-full"></div>
       </div>
+
       {/* <div className="py-16 md:py-24"> */}
       <div className="relative bg-gradient-to-b from-saas-black to-[#1c160c] overflow-hidden flex items-center">
         <div className="section-container">

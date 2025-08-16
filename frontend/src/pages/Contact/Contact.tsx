@@ -1,4 +1,4 @@
-const AboutUs = () => {
+const Contact = () => {
   return (
     <>
       <div
@@ -15,12 +15,14 @@ const AboutUs = () => {
 
         <div className="absolute top-[18%] left-1/2 -translate-x-1/2 max-w-7xl  w-full px-4 sm:px-6 md:px-8">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-saas-orange text-center">
-            About Us
+            Contact Us
           </h1>
           <p className="mt-4 text-lg sm:text-xl md:text-2xl text-white text-center max-w-3xl mx-auto">
-            We are a team of passionate individuals dedicated to providing the
-            best services in the industry. Our mission is to deliver quality
-            solutions that meet the needs of our clients.
+            We are here to assist you with any inquiries or support you may
+            need. Whether you have questions about our services, need technical
+            support, or want to discuss a potential project, our team is ready
+            to help. Please reach out to us through the contact form below or
+            via email at
           </p>
         </div>
 
@@ -33,4 +35,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Contact;

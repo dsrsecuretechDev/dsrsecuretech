@@ -18,6 +18,8 @@ const LearnMoreCareerPage = lazy(
   () => import("../../pages/careers/LearnMoreCareersPage.tsx")
 );
 
+const WhoWeAre = lazy(() => import("../../pages/whoWeAre/whoWeAre.tsx"));
+const Contact = lazy(() => import("../../pages/Contact/Contact.tsx"));
 const RoutesApp = createBrowserRouter([
   {
     path: ROUTE_URL.HOME,
@@ -34,6 +36,14 @@ const RoutesApp = createBrowserRouter([
       {
         path: ROUTE_URL.SERVICE,
         element: <Services />,
+      },
+      {
+        path: ROUTE_URL.WHO_WE_ARE,
+        element: <WhoWeAre />,
+      },
+      {
+        path: ROUTE_URL.CONTACT,
+        element: <Contact />,
       },
       {
         path: ROUTE_URL.LEARN_MORE,
