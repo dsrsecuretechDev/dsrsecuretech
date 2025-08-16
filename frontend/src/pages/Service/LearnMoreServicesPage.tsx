@@ -4,6 +4,7 @@ import PageNotFound from "../../app/notFound/PageNotFound/PageNotFound";
 import { services } from "../../data/services";
 import { Link, useParams } from "react-router-dom";
 import { ROUTE_URL } from "../../constant/routes.const";
+import DOMPurify from "dompurify";
 
 export default function LearnMoreServicesPage() {
   const { category } = useParams();
@@ -47,7 +48,7 @@ export default function LearnMoreServicesPage() {
           </div>
 
           {/* Description */}
-          <div className="space-y-6 max-w-6xl mx-auto">
+          {/* <div className="space-y-6 max-w-6xl mx-auto">
             {categoryData?.description?.map((desc, index) => (
               <p
                 key={index}
@@ -55,6 +56,16 @@ export default function LearnMoreServicesPage() {
               >
                 {desc}
               </p>
+            ))}
+          </div> */}
+
+          <div className="space-y-6 max-w-6xl mx-auto">
+            {categoryData?.description?.map((desc, index) => (
+              <div
+                key={index}
+                className="text-lg md:text-xl text-gray-300 leading-relaxed"
+                dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(desc) }}
+              />
             ))}
           </div>
 

@@ -14,14 +14,21 @@ const AboutUs = () => {
         <div className="absolute top-20 right-1/4 w-[250px] h-[250px] bg-orange-400 opacity-10 rounded-full blur-[70px]"></div>
 
         <div className="absolute top-[18%] left-1/2 -translate-x-1/2 max-w-7xl  w-full px-4 sm:px-6 md:px-8">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-saas-orange text-center">
-            About Us
-          </h1>
-          <p className="mt-4 text-lg sm:text-xl md:text-2xl text-white text-center max-w-3xl mx-auto">
-            We are a team of passionate individuals dedicated to providing the
-            best services in the industry. Our mission is to deliver quality
-            solutions that meet the needs of our clients.
-          </p>
+          <div className="">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-saas-orange text-center">
+              About Us
+            </h1>
+            <p className="mt-4 text-lg sm:text-xl md:text-2xl text-white text-center max-w-3xl mx-auto">
+              We are a team of passionate individuals dedicated to providing the
+              best services in the industry. Our mission is to deliver quality
+              solutions that meet the needs of our clients.
+            </p>
+          </div>
+          <div className="">
+            <div className=""></div>
+            <div className=""></div>
+            <div className=""></div>
+          </div>
         </div>
 
         {/* Abstract shapes */}

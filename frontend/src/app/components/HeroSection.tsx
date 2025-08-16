@@ -12,7 +12,7 @@ import { ROUTE_URL } from "../../constant/routes.const";
 const HeroSection = () => {
   return (
     <div
-      className=" relative bg-gradient-to-b from-saas-black to-[#1c160c] bg-black/30 overflow-hidden min-h-[96vh] flex items-center bg-cover bg-center bg-no-repeat"
+      className=" relative bg-gradient-to-b from-saas-black to-[#1c160c] bg-black/30 overflow-hidden min-h-[96vh] flex items-center bg-cover bg-center bg-no-repeat "
       style={{
         backgroundImage: "url('/hero-bg.webp')",
         backgroundPosition: "calc(50% + 8rem) center",
@@ -41,15 +41,20 @@ const HeroSection = () => {
             operations while keeping your data protected.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center md:justify-start w-full sm:w-auto">
-            <Button className="bg-saas-orange hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200">
-              {GET_STARTED_FREE}
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-            <Link to={ROUTE_URL.SCHEDULE_MEETING}>
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center sm:justify-start w-full sm:w-auto">
+            {/* Primary button */}
+            <Link to={ROUTE_URL.SCHEDULE_MEETING} className="w-full sm:w-auto">
+              <Button className="w-full sm:w-auto bg-saas-orange hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center">
+                {GET_STARTED_FREE}
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
+
+            {/* Secondary button */}
+            <Link to={ROUTE_URL.SCHEDULE_MEETING} className="w-full sm:w-auto">
               <Button
                 variant="outline"
-                className="border-saas-orange text-saas-orange hover:bg-saas-orange hover:text-white"
+                className="w-full sm:w-auto border-saas-orange text-saas-orange hover:bg-saas-orange hover:text-white py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center"
               >
                 {SCHEDULE_MEETING}
               </Button>

@@ -1,22 +1,22 @@
 const testimonials = [
   {
     text: "Implementing software has been a game-changer for our team. The intuitive interface and powerful features have significantly improved our productivity and collaboration.",
-    author: "Divakar Mokal",
-    position: "Founder, DSR Group.",
+    author: "Sarah Johnson",
+    position: "CTO, TechSolutions Inc.",
     image:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&h=100",
   },
   {
     text: "The customer support team at DsrSecureTech is exceptional. They've been incredibly responsive and helped us optimize our workflow to get the most out of the platform",
-    author: "Shakuntla Shinde",
-    position: "Co-Founder, DSR Group.",
+    author: "Emily Rodriguez",
+    position: "Operations Director, Nexus Corp",
     image:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100",
   },
   {
     text: "We've tried several software  platforms before, but DsrSecureTech offers the perfect balance of functionality and ease of use. It's become an essential part of our daily operations.",
-    author: "Satish Ghode",
-    position: "Co-Founder, DSR Group.",
+    author: "Emily Rodriguez",
+    position: "Product Manager, Innovation Labs",
     image:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&h=100",
   },

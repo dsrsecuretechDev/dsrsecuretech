@@ -11,13 +11,7 @@ const WhoWeAreSection = () => {
       {/* Header Section */}
       <div className="relative max-w-5xl mx-auto animate-fade-in">
         {/* Image with Overlay Text */}
-        <div className="relative w-full mb-8 shadow-2xl  overflow-hidden">
-          <img
-            src="../../../public/DSR1.png"
-            alt="Who We Are Header"
-            className="w-full rounded-full blur-sm object-cover  md:h-[900px]"
-          />
-        </div>
+        <div className="relative w-full mb-8 shadow-2xl  overflow-hidden"></div>
       </div>
 
       {/* Description Section */}

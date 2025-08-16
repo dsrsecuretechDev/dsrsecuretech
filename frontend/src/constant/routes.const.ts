@@ -4,7 +4,7 @@ export const ROUTE_URL = {
   REGISTER: "/register",
   FORGET_PASSWORD: "/forget-password",
   UNDEFINED: "*",
-  ABOUT: "/about",
+  ABOUT: "/about-us",
   CONTACT: "/contact",
   GALLERY: "/gallery",
   CAREERS: "/careers",
