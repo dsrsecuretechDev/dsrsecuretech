@@ -7,24 +7,30 @@ export const aboutUs = {
   aboutUsTestimonials: [
     {
       name: 'Divakar Mokal',
-      position: 'Founder, DSR Secure Tech',
+      position: 'Founder | CEO, DSR Secure Tech',
+      email:`divakarmoal`,
+      socialmedia:[{icon:"",link:""}],
       testimonial:
-        'DSR Secure Tech transformed our cybersecurity approach, providing us with robust solutions that have significantly enhanced our data security.',
-      image: '../../public/aboutUsTestimonialsImages/DSR.png'
+        'Cybersecurity Researcher  with 8 + years of expertise in penetration testing, ZTNA, forensics, and threat intelligence. Recognized by Google and the U.S. Government, he has supported law enforcement and political leaders with AI-driven security solutions and advanced training in offensive security.',
+      image: '../../public/aboutUsTestimonialsImages/aa.png'
     },
     {
       name: 'Shakuntala Shinde',
-      position: 'Co-Founder, DSR Secure Tech',
+      position: 'Co-Founder | COO,  DSR Secure Tech',
+      email:``,
+      socialmedia:[{icon:"",link:""}],
       testimonial:
-        'Their expertise in blockchain technology has been invaluable. DSR Secure Tech is a trusted partner in our digital transformation journey.',
-      image: '../../public/aboutUsTestimonialsImages/DSR.png'
+        `COO at DSR Group of Companies, specializes in cybersecurity and blockchain, with expertise in penetration testing, audits, and operational excellence, leading initiatives to strengthen IT infrastructure security.`,
+      image: '../../public/aboutUsTestimonialsImages/bb.png'
     },
     {
       name: 'Satish Ghode',
-      position: 'Co-Founder, DSR Secure Tech',
+      position: 'Co-Founder | CTO, DSR Secure Tech',
+      email:``,
+      socialmedia:[{icon:"",link:""}],
       testimonial:
         'The team at DSR Secure Tech is exceptional. Their strategic insights and innovative solutions have helped us stay ahead in a competitive market.',
-      image: '../../public/aboutUsTestimonialsImages/DSR.png'
+      image: '../../public/aboutUsTestimonialsImages/cc.png'
     }
   ]
 };
